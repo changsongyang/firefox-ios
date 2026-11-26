@@ -293,13 +293,13 @@
 "DownloadsPanel.Share.Title" = "Kopīgot";
 
 /* Text message in the settings table view */
-"Enter your password to connect" = "Ievadiet paroli lai pieslēgtos";
+"Enter your password to connect" = "Jāievada sava parole, lai izveidotu savienojumu";
 
 /* Label for button to perform advanced actions on the error page */
 "ErrorPages.Advanced.Button" = "Paplašināti";
 
 /* Warning text when clicking the Advanced button on error pages */
-"ErrorPages.AdvancedWarning1.Text" = "Brīdinājums: mēs nevaram apstiprināt vai jūsu pieslēgums ar šo mājaslapu ir drošs.";
+"ErrorPages.AdvancedWarning1.Text" = "Brīdinājums: mēs nevaram apstiprināt, ka savienojums ar šo tīmekļvietni ir drošs.";
 
 /* Additional warning text when clicking the Advanced button on error pages */
 "ErrorPages.AdvancedWarning2.Text" = "Tā varētu būt konfigurēšanas nepilnība vai uzbrukuma pazīme. Turpināt tikai tad, ja pieņem iespējamo apdraudējumu.";
@@ -369,6 +369,9 @@
 
 /* Label when no internet is present */
 "FxA.NoInternetConnection" = "Nav savienojuma ar internetu";
+
+/* FxA sign in view subtitle */
+"fxa.signin.camera-signin" = "Pieteikties ar kameru";
 
 /* Button label to Sync your Firefox Account */
 "FxA.SyncNow" = "Sinhronizēt";
@@ -584,13 +587,16 @@
 "Loading content…" = "Ielādē saturu…";
 
 /* Authentication prompt log in button */
-"Log in" = "Pieslēgties";
+"Log in" = "Pieteikties";
 
 /* Toggle logins syncing setting */
 "Logins" = "Paroles";
 
 /* Title of the Learn More button that links to a support page about device passcode requirements. */
 "Logins.DevicePasscodeRequired.LearnMoreButtonTitle" = "Uzzināt vairāk";
+
+/* Title of the Continue button. */
+"Logins.Onboarding.ContinueButtonTitle" = "Turpināt";
 
 /* Title of the Learn More button that links to a support page about device passcode requirements. */
 "Logins.Onboarding.LearnMoreButtonTitle" = "Uzzināt vairāk";
@@ -654,6 +660,9 @@
 
 /* A switch to enable enhanced tracking protection inside the menu. */
 "Menu.EnhancedTrackingProtectionOn.Title" = "Aizsardzība ir IESLĒGTA šai vietnei";
+
+/* Label for the button, displayed in the menu, takes you to passwords screen when pressed. */
+"Menu.Passwords.Label" = "Paroles";
 
 /* The title for the button that lets you paste into the location bar */
 "Menu.Paste.Title" = "Ielīmēt";
@@ -725,7 +734,7 @@
 "Privacy" = "Privātums";
 
 /* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
-"Privacy Policy" = "Privātuma politika";
+"Privacy Policy" = "Privātuma pamatnostādnes";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
 "ProtectionStatus.NotSecure" = "Savienojums nav drošs";
@@ -847,6 +856,9 @@
 /* Title of the dialog that allows you to send a tab to a different device */
 "SendTo.NavBar.Title" = "Sūtīt cilni";
 
+/* See http://mzl.la/1ISlXnU */
+"SendTo.NotSignedIn.Message" = "Lūgums atvērt Firefox, doties uz iestatījumiem un pieteikties, lai turpinātu.";
+
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Sūtīt";
 
@@ -929,7 +941,7 @@
 "Settings.DataManagement.SearchLabel" = "Atsijāt vietnes";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Firefox pārstās sinhronizēt ar jūsu kontu, bet esošie dati no šīs ierīces netiks izdzēsti.";
+"Settings.Disconnect.Body" = "Firefox pārstās vienādot ar Tavu kontu, bet neizdzēsīs pārlūkošanas datus šajā ierīcē.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Atvienoties";
@@ -988,6 +1000,9 @@
 /* Button in settings to use the current page as home page. */
 "Settings.HomePage.UseCurrent.Button" = "Lietot pašreizējo lapu";
 
+/* Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long */
+"Settings.LoginsAndPasswordsTitle" = "Pieteikšanās vienumi un paroles";
+
 /* Option in settings to show a blank page when you open a new tab */
 "Settings.NewTab.Option.BlankPage" = "Tukša lapa";
 
@@ -1015,6 +1030,9 @@
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Status" = "Atverot Firefox";
 
+/* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. %@ is for the app name. */
+"Settings.OfferClipboardBar.Status.v128" = "Kad atver %@";
+
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Piedāvāt atvērt starpliktuvē ievietotās saites";
 
@@ -1023,6 +1041,12 @@
 
 /* Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behavior. */
 "Settings.OpenWith.SectionName" = "Pasta aplikācija";
+
+/* Setting that appears in the Passwords screen to enable the built-in password manager so users can save their passwords. */
+"Settings.Passwords.SavePasswords.v103" = "Saglabāt paroles";
+
+/* Title for the passwords screen. */
+"Settings.Passwords.Title.v103" = "Paroles";
 
 /* Button displayed at the top of the search settings. */
 "Settings.Search.Done.Button" = "Gatavs";
@@ -1051,6 +1075,12 @@
 /* Title for a link that explains what Mozilla means by Studies */
 "Settings.Studies.Toggle.Link" = "Uzzināt vairāk.";
 
+/* Ddescription that appears in the settings screen to explain what Firefox Sync is useful for. */
+"Settings.Sync.ButtonDescription.v103" = "Jāpiesakās, lai vienādotu cilnes, grāmatzīmes un citus datus.";
+
+/* In the settings account row, shown transiently while the user is being signed out of their account. */
+"Settings.Sync.SigningOut.Title.v154" = "Izrakstās…";
+
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "Labi, sapratu";
 
@@ -1068,6 +1098,9 @@
 
 /* Button shows all websites on website data tableview */
 "Settings.WebsiteData.ButtonShowMore" = "Rādīt vairāk";
+
+/* Description of the confirmation dialog shown when a user tries to clear some of their private data. */
+"Settings.WebsiteData.SelectedConfirmPrompt" = "Šī darbība notīrīs atlasītos vienumus. Tas ir neatgriezeniski.";
 
 /* Action label on share extension to add page to the Firefox reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Pievienot lasīšanas sarakstam";
@@ -1115,7 +1148,7 @@
 "Sync.SyncingEllipsis.Label" = "Sinhronizē…";
 
 /* Title for Sync status message when Sync failed due to being offline */
-"SyncState.Offline.Title" = "Sinhronizācija šobrīd nedarbojas";
+"SyncState.Offline.Title" = "Vienādošana ir bezsaistē";
 
 /* Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray (%1$@), along with the total number of tabs (%2$@). E.g. “Tab 2 of 5” says that tab 2 is visible (and is the only visible tab), out of 5 tabs total. */
 "Tab %@ of %@" = "Cilne %1$@ no %2$@";
@@ -1132,11 +1165,17 @@
 /* The button to undo the delete all tabs */
 "Tabs.DeleteAllUndo.Button" = "Atcelt";
 
+/* Accessibility Label for the tab toolbar Search button */
+"TabToolbar.Accessibility.Search.v106" = "Meklēt";
+
 /* Accessibility label for the Add Tab button in the Tab Tray. */
 "TabTray.AddTab.Button" = "Pievienot cilni";
 
 /* A label indicating the keyboard shortcut of closing all tabs from the tab tray. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "TabTray.CloseAllTabs.KeyCodeTitle" = "Aizvērt visas cilnes";
+
+/* Accessibility label for the currently selected tab. */
+"TabTray.CurrentSelectedTab.A11Y" = "Pašreiz atlasītā cilne.";
 
 /* A label indicating the keyboard shortcut of opening a new tab in the tab tray. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "TabTray.OpenNewTab.KeyCodeTitle" = "Atvērt jaunu cilni";
